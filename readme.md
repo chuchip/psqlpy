@@ -21,8 +21,12 @@ sql:
   - delete from tabla1
   - insert into tabla1 values(1,'aa')
   - insert into tabla1 values(2,'bb')
-  
+
 Creación imagen docker: 
+
     docker build -t psql .
+
+    
 Ejemplo de uso: 
+
     docker  run -e DB_HOST=192.168.80.174 -it  psql
