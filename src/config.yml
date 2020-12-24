@@ -1,0 +1,10 @@
+postgres:
+ host: localhost
+ port: 5432
+ database: prueba
+ user: postgres
+ password: example
+sql: 
+  - delete from tabla1
+  - insert into tabla1 values(1,'aa')
+  - insert into tabla1 values(2,'bb')
